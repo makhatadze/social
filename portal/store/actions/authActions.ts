@@ -6,7 +6,7 @@ import Cookies from 'js-cookie'
  * @param profile
  * @param setSubmitting
  */
-export const signIn = (profile: object, setSubmitting: Function) => (dispatch: Function) => {
+export const logIn = (profile: object, setSubmitting: Function) => (dispatch: Function) => {
 
 }
 

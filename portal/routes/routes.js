@@ -1,11 +1,12 @@
 import React from "react";
+import Login from "../components/Login/Login";
 
 
 export const authRoutes = [
     {
         path:'/',
         exact: true,
-        component: <div>Login</div>
+        component: <Login />
     },
     {
         path: "/reset-password",

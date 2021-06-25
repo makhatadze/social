@@ -13,7 +13,7 @@ const AuthNavigation: React.FC = () => {
                             key={index}
                             path={route.path}
                             exact={route.exact}
-                            children={route.children}
+                            children={route.component}
                         />
                     ))}
                     <Route path="*">

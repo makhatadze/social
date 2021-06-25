@@ -24,7 +24,7 @@ class App extends React.Component<IApp> {
                 {!this.props.initialized && <div className="d-center"><Spin size="large"/></div>}
                 {this.props.initialized && (
                     <div className="app">
-                        {1 ? <AppNavigation/> : <AuthNavigation/>}
+                        {<AuthNavigation />}
                     </div>
                 )}
             </>

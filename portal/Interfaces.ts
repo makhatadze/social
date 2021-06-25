@@ -16,3 +16,15 @@ export interface IMyAccount {
     myProfile?: any,
     logOut: Function,
 }
+
+export interface iForm {
+    onSubmit: Function,
+    isValid: boolean | undefined,
+    errorText: string | undefined
+}
+
+export interface ILogin {
+    logIn: Function,
+    errorText: string | undefined,
+    isValidAuth: boolean | undefined
+}
