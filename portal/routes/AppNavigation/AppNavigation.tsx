@@ -3,13 +3,14 @@ import {Route, Switch} from "react-router-dom";
 import {appRoutes} from '../routes';
 import {Layout} from "antd";
 import {IAppNavigation} from "../../Interfaces";
+import Header from "../../components/Header";
 
 const AppNavigation: React.FC<IAppNavigation> = props => {
-    const {Content, Header} = Layout;
+    const {Content} = Layout;
 
     return (
         <Layout style={{minHeight: '100vh'}}>
-            <Header>header</Header>
+            <Header />
             <Layout className="site-layout">
                 <div className="container">
                     <div className="row mt-3">

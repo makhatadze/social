@@ -4215,6 +4215,11 @@ klona@^2.0.4:
   resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.4.tgz#7bb1e3affb0cb8624547ef7e8f6708ea2e39dfc0"
   integrity sha512-ZRbnvdg/NxqzC7L9Uyqzf4psi1OM4Cuc+sJAkQPjO6XkQIJTNbfK2Rsmbw8fx1p2mkZdp2FZYo2+LwXYY/uwIA==
 
+laravel-mix-react-typescript-extension@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/laravel-mix-react-typescript-extension/-/laravel-mix-react-typescript-extension-1.0.3.tgz#0f1df9cc36861adbf311442df0f820956cd1de85"
+  integrity sha512-38iUtdz6jFUnIDx9n5Wl3k1FTVTUS6Ga8Q5lySHphD4s2jiHXAbsyGq1GJeCDoSCfM8wf5Tq7i1XIj+7gmbW/g==
+
 laravel-mix@^6.0.6:
   version "6.0.25"
   resolved "https://registry.yarnpkg.com/laravel-mix/-/laravel-mix-6.0.25.tgz#6989f3e1a6d4cc0b73732bf02e5355a8f3696156"
